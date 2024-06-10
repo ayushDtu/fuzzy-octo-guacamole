@@ -13,6 +13,11 @@ app.get('/portfolio', (req, res) => {
     res.send('<a>https://whimsicalayush.netlify.app</a>')
 }) 
 
+app.get('/name', (req, res) => {
+  res.send('ayush jha')
+}) 
+
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
